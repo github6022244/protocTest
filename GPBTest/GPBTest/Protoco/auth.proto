@@ -1,0 +1,7 @@
+syntax = "proto2";
+package auth;
+message AuthInfo {
+required int32 flag = 1;
+required int32 userId = 2;
+required string sign = 3;
+}
